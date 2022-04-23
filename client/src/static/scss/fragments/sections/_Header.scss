@@ -1,0 +1,25 @@
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+
+  .logo {
+    width: 225px;
+    height: 70px;
+  }
+  .contact-card-list {
+    width: 70%;
+  }
+}
+
+.link-list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  padding: 1rem 0;
+  margin: 0 auto;
+  .btn {
+    border-radius: 20px;
+  }
+}

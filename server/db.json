@@ -1,0 +1,287 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Чизбургер барбекю",
+      "img": "cheeseburger-bbq",
+      "description": "Соус коктейль, фарш из отборной говядины, маринованные огурцы, спелые томаты, сыр моцарелла, сыр чеддер, соус барбекю, хрустящий лук",
+      "calories_data": {
+        "calories": 79.8,
+        "albumen": 2.4,
+        "fats": 5.4,
+        "carbohydrates": 5.4
+      },
+      "priceData": {
+        "prevPrice": 930,
+        "currentPrice": 800
+      },
+      "modifiers": [
+        {
+          "id": 1,
+          "name": "Говядина варёно-копчёная, 50 г",
+          "price": 70,
+          "img": "boiled_and_smoked_beef"
+        },
+        {
+          "id": 2,
+          "name": "Филе копченого цыпленка, 50 г",
+          "price": 77,
+          "img": "smoked_chicken"
+        },
+        {
+          "id": 3,
+          "name": "Фарш из мраморной говядины, 50 г",
+          "price": 99,
+          "img": "minced_marble_beef"
+        },
+        {
+          "id": 4,
+          "name": "Карбонад из свинины, 50 г",
+          "price": 70,
+          "img": "pork_carbonade"
+        },
+        {
+          "id": 5,
+          "name": "Говядина варёно-копчёная, 50 г",
+          "price": 70,
+          "img": "boiled_and_smoked_beef"
+        },
+        {
+          "id": 6,
+          "name": "Филе копченого цыпленка, 50 г",
+          "price": 77,
+          "img": "smoked_chicken"
+        },
+        {
+          "id": 7,
+          "name": "Фарш из мраморной говядины, 50 г",
+          "price": 99,
+          "img": "minced_marble_beef"
+        },
+        {
+          "id": 8,
+          "name": "Карбонад из свинины, 50 г",
+          "price": 70,
+          "img": "pork_carbonade"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "newProduct": true,
+      "name": "Суприм",
+      "img": "supreme-pizza",
+      "description": "Соус томатный, сыр моцарелла, колбаса пепперони, ветчина, лук, сладкий перец, грибной микс, свинина, говядина, оливки черные",
+      "priceData": {
+        "prevPrice": null,
+        "currentPrice": 690
+      },
+      "calories_data": {
+        "calories": 79.8,
+        "albumen": 2.4,
+        "fats": 5.4,
+        "carbohydrates": 5.4
+      },
+      "modifiers": [
+        {
+          "id": 1,
+          "name": "Говядина варёно-копчёная, 50 г",
+          "price": 70,
+          "img": "boiled_and_smoked_beef"
+        },
+        {
+          "id": 2,
+          "name": "Филе копченого цыпленка, 50 г",
+          "price": 77,
+          "img": "smoked_chicken"
+        },
+        {
+          "id": 3,
+          "name": "Фарш из мраморной говядины, 50 г",
+          "price": 99,
+          "img": "minced_marble_beef"
+        },
+        {
+          "id": 4,
+          "name": "Карбонад из свинины, 50 г",
+          "price": 70,
+          "img": "pork_carbonade"
+        },
+        {
+          "id": 5,
+          "name": "Говядина варёно-копчёная, 50 г",
+          "price": 70,
+          "img": "boiled_and_smoked_beef"
+        },
+        {
+          "id": 6,
+          "name": "Филе копченого цыпленка, 50 г",
+          "price": 77,
+          "img": "smoked_chicken"
+        },
+        {
+          "id": 7,
+          "name": "Фарш из мраморной говядины, 50 г",
+          "price": 99,
+          "img": "minced_marble_beef"
+        },
+        {
+          "id": 8,
+          "name": "Карбонад из свинины, 50 г",
+          "price": 70,
+          "img": "pork_carbonade"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "newProduct": true,
+      "name": "Бургер «Два сыра»",
+      "img": "burger-2cheese",
+      "description": "Ароматная котлета из мраморной говядины с сыром чеддер и моцарелла, хрустящим луком, маринованными корнишонами, свежими томатами, соусом коктейль и барбекю в мягкой пшеничной булочке. Картофель и соус приобретается отдельно",
+      "priceData": {
+        "prevPrice": null,
+        "currentPrice": 180
+      },
+      "calories_data": {
+        "calories": 79.8,
+        "albumen": 2.4,
+        "fats": 5.4,
+        "carbohydrates": 5.4
+      },
+      "modifiers": [
+        {
+          "id": 1,
+          "name": "Говядина варёно-копчёная, 50 г",
+          "price": 70,
+          "img": "boiled_and_smoked_beef"
+        },
+        {
+          "id": 2,
+          "name": "Филе копченого цыпленка, 50 г",
+          "price": 77,
+          "img": "smoked_chicken"
+        },
+        {
+          "id": 3,
+          "name": "Фарш из мраморной говядины, 50 г",
+          "price": 99,
+          "img": "minced_marble_beef"
+        },
+        {
+          "id": 4,
+          "name": "Карбонад из свинины, 50 г",
+          "price": 70,
+          "img": "pork_carbonade"
+        },
+        {
+          "id": 5,
+          "name": "Говядина варёно-копчёная, 50 г",
+          "price": 70,
+          "img": "boiled_and_smoked_beef"
+        },
+        {
+          "id": 6,
+          "name": "Филе копченого цыпленка, 50 г",
+          "price": 77,
+          "img": "smoked_chicken"
+        },
+        {
+          "id": 7,
+          "name": "Фарш из мраморной говядины, 50 г",
+          "price": 99,
+          "img": "minced_marble_beef"
+        },
+        {
+          "id": 8,
+          "name": "Карбонад из свинины, 50 г",
+          "price": 70,
+          "img": "pork_carbonade"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "newProduct": true,
+      "name": "Суши Унаги",
+      "img": "unagi",
+      "description": "Угорь",
+      "priceData": {
+        "prevPrice": null,
+        "currentPrice": 120
+      },
+      "calories_data": {
+        "calories": 79.8,
+        "albumen": 2.4,
+        "fats": 5.4,
+        "carbohydrates": 5.4
+      }
+    },
+    {
+      "id": 5,
+      "newProduct": true,
+      "name": "Умэ",
+      "img": "ume",
+      "description": "Лосось, угорь, сыр «Филадельфия», авокадо",
+      "priceData": {
+        "prevPrice": 420,
+        "currentPrice": 385
+      },
+      "calories_data": {
+        "calories": 79.8,
+        "albumen": 2.4,
+        "fats": 5.4,
+        "carbohydrates": 5.4
+      }
+    },
+    {
+      "id": 6,
+      "newProduct": true,
+      "name": "Суши Эби",
+      "img": "ebi",
+      "description": "Креветка",
+      "priceData": {
+        "prevPrice": null,
+        "currentPrice": 130
+      },
+      "calories_data": {
+        "calories": 79.8,
+        "albumen": 2.4,
+        "fats": 5.4,
+        "carbohydrates": 5.4
+      }
+    }
+  ],
+  "gifts": [
+    {
+      "id": 1,
+      "name": "Морс 'Смородина'",
+      "img": "mors",
+      "description": "Морс 'Смородина', 1 л",
+      "conditions": {
+        "if_price_is_more": 2000,
+        "promocode": "mors1"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Морс 'Смородина'",
+      "img": "mors",
+      "description": "Морс 'Смородина', 1 л",
+      "conditions": {
+        "if_price_is_more": 9000,
+        "promocode": "mors3"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Морс 'Смородина'",
+      "img": "mors",
+      "description": "Морс 'Смородина', 1 л",
+      "conditions": {
+        "if_price_is_more": 4000,
+        "promocode": "mors2"
+      }
+    }
+  ]
+}

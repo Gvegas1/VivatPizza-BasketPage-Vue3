@@ -1,0 +1,29 @@
+@mixin title-mixin($font-size) {
+  font-size: $font-size;
+  font-weight: 700;
+  line-height: 1;
+}
+%default--title_lg {
+  @include title-mixin(30px);
+}
+%default--title_md {
+  @include title-mixin(22px);
+}
+%default--title_sm {
+  @include title-mixin(18px);
+}
+
+%default--descrition_md {
+  font-weight: 400;
+  font-size: 14px;
+}
+%default--descrition_sm {
+  font-weight: 400;
+  font-size: 12px;
+}
+%default--btn {
+  color: black;
+  padding: 12px;
+  border: 2px solid #cc693e;
+  background-color: white;
+}

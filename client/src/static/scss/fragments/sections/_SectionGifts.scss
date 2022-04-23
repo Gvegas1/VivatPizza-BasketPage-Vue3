@@ -1,0 +1,9 @@
+.section-gifts {
+  .section-gifts__title {
+    @extend %default--title_lg;
+    margin-bottom: 40px;
+  }
+  .gifts-list > :not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}

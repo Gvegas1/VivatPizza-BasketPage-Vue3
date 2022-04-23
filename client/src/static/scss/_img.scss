@@ -1,0 +1,63 @@
+.logo {
+  height: 80px;
+  width: 246px;
+  background: url("@/static/img/logo.png") no-repeat transparent;
+  background-size: 90%;
+}
+
+@mixin svg-imgs($bg_name) {
+  background: url("@/static/img/#{$bg_name}.svg") no-repeat;
+  background-size: contain;
+}
+.svg-plus {
+  width: 30px;
+  height: 30px;
+  @include svg-imgs("Icons_\ Plus");
+}
+.svg-checked {
+  width: 30px;
+  height: 30px;
+  @include svg-imgs("Checked");
+}
+.geo-svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  @include svg-imgs("geo");
+}
+.close-svg {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  @include svg-imgs("Close");
+}
+.slider-arrow {
+  width: 50px;
+  height: 50px;
+  @include svg-imgs("slider-arrow");
+}
+
+@mixin footer-imgs($bg_name) {
+  background: url("@/static/img/#{$bg_name}") no-repeat;
+  background-size: cover;
+}
+.visa-img {
+  width: 88px;
+  height: 28px;
+  @include footer-imgs("Visa.svg");
+}
+.mastercard-img {
+  width: 64px;
+  height: 40px;
+  @include footer-imgs("Mastercard.svg");
+}
+.googlePlay-img {
+  width: 135px;
+  height: 40px;
+  @include footer-imgs("Google\ Play.png");
+}
+.appStore-img {
+  width: 120px;
+  height: 40px;
+  @include footer-imgs("App\ Store.png");
+}

@@ -1,0 +1,5 @@
+.section-basket {
+  .basket-card-list > *:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,25 @@
+.contact-card-list {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-card__geo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2rem;
+  .geo-svg {
+    width: 11px;
+    height: 16px;
+    margin-right: 0.2rem;
+  }
+}
+.contact-card__geo-text {
+  @extend %default--descrition_sm;
+}
+.contact-card__working_hours {
+  color: $basic--color-darkgray;
+}
+.contact-card__phone {
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}

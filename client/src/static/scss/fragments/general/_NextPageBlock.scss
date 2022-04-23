@@ -1,0 +1,17 @@
+.next-page-block {
+  display: flex;
+  flex-direction: column;
+
+  .next-page-block__text {
+    @extend %default--title_sm;
+    margin-bottom: 40px;
+    color: $basic--color-dark;
+    span {
+      text-decoration: line-through;
+    }
+  }
+  .next-page-block__btn {
+    padding: 16px 64px;
+    border-radius: 40px;
+  }
+}
